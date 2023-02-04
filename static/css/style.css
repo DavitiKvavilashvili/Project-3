@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'FiraGO', sans-serif;
+    src: url(../fonts/FiraGO.ttf);
+}
+
+@font-face {
+    font-family: 'FiraGO-Medium', sans-serif;
+    src: url(../fonts/FiraGO-Medium.ttf);
+
+
+}
+
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url(../fonts/Poppins-Regular.ttf);
+
+}
+
+@font-face {
+    font-family: 'Poppins-Medium', sans-serif;
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins-Bold', sans-serif;
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+
+
+@font-face {
+    font-family: 'Open Sans - Normal', sans-serif;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Open Sans - Normal-italic', sans-serif;
+    src: url(../fonts/OpenSans-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'Open Sans - SemiBold', sans-serif;
+    src: url(../fonts/OpenSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Open Sans - SemiBolditalic', sans-serif;
+    src: url(../fonts/OpenSans-SemiBoldItalic.ttf);
+}
+
+header {
+    font-size: 18px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding: 30px 0;
+}
+
+header li {
+    display: inline-block;
+}
+
+header a {
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    line-height: 27px;
+}
+
+.home-title h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 72px;
+    font-family: 'FiraGO-Medium', sans-serif;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.nav-center {
+    margin: 0 66px;
+}
+
+.box-top {
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 333px;
+    height: 487px;
+}
+
+.box-top h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+    font-size: 16px;
+    padding: 25px;
+}
+
+.box-top p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 0 25px;
+}
+
+.box-top>img {
+    margin: 10px;
+}
+
+.box {
+    margin: 70px 100px;
+    display: inline-block;
+}
+
+.box-button button {
+    background-color: inherit;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 25px;
+    margin-left: 210px;
+    padding: 6px 26px;
+    text-align: right;
+}
+
+.bottom-list {
+    font-size: 14px;
+    margin-top: 62px;
+}
+
+.bottom-list li {
+    list-style: circle;
+    text-align: left;
+    line-height: 19px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* ending css index.html */
+
+/*  starting css contact.html */
+
+.contact-title {
+    color: #7D0000;
+    box-sizing: border-box;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    margin-top: 85px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.contact-list {
+    margin: 132px 900px 473px 200px;
+}
+
+.address-center {
+    margin: 25px 0;
+}
+
+.contact-list address {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    line-height: 34px;
+    font-weight: 600;
+}
+
+.address-italic {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+/* ending css contact.html */
+
+
+/* starting css about.html */
+
+.about-tittle {
+    color: #7D0000;
+    box-sizing: border-box;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    margin-top: 85px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+.box-about {
+    margin: 118px 490px 355px 175px;
+}
+
+.box-about p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 41px;
+}
+
+.box-about address {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    line-height: 34px;
+    padding-top: 59px;
+}
